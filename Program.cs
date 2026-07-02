@@ -5,6 +5,8 @@ class Program
     static void Main()
     {
         Console.WriteLine("hello everyone");
+        GreetWhite();
+        GreetBlack();   
     }
 
 
@@ -12,4 +14,8 @@ class Program
     {
         Console.WriteLine("hello white");
     }
+    static void GreetBlack()
+{
+    Console.WriteLine("hello black");
+}
 }
